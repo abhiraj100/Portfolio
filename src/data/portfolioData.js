@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Abhiraj Yadav",
   title: "Full Stack Developer",
-  subtitle: "Frontend Developer | React.js Specialist | MERN Stack Developer",
+  subtitle: "Frontend Developer | React.js Specialist | MERN Stack Developer | DevOps",
   location: "Noida, Uttar Pradesh, India",
   email: "abhirajyadav303@gmail.com",
   phone: "+91 9113402282",
@@ -9,7 +9,7 @@ export const personalInfo = {
   github: "https://github.com/abhiraj100",
   resume: "/Abhiraj_Resume.pdf",
   profileImage: "src/assets/profile.jpeg",
-  bio: "Passionate Full Stack Developer with expertise in modern web technologies. Currently pursuing Master's in Computer Applications from VIT Bhopal. Experienced in building scalable web applications using React.js, Node.js, and MongoDB. Strong problem-solving skills with a focus on user experience and performance optimization.",
+  bio: "Passionate Full Stack Developer with expertise in modern web technologies. Completed Master's in Computer Applications from Vellore Institute of Technology (Bhopal Campus). Experienced in building scalable web applications using React.js, Node.js, and MongoDB. Strong problem-solving skills with a focus on user experience and performance optimization.",
 };
 
 export const education = [
