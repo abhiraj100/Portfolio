@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Abhiraj Yadav - Full Stack Developer | React.js & Node.js Expert</title>
+    <meta name="description" content="Passionate Full Stack Developer specializing in React.js, Node.js, and modern web technologies. Available for freelance projects and full-time opportunities." />
+    <meta name="keywords" content="Full Stack Developer, React.js Developer, Node.js, JavaScript, Web Development, Frontend Developer, Backend Developer, MERN Stack" />
+    <meta name="author" content="Abhiraj Yadav" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Abhiraj Yadav - Full Stack Developer" />
+    <meta property="og:description" content="Passionate Full Stack Developer specializing in React.js, Node.js, and modern web technologies." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abhirajyadav.dev" />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:image:alt" content="Abhiraj Yadav - Full Stack Developer Portfolio" />
+    <meta property="og:site_name" content="Abhiraj Yadav Portfolio" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Abhiraj Yadav - Full Stack Developer" />
+    <meta name="twitter:description" content="Passionate Full Stack Developer specializing in React.js, Node.js, and modern web technologies." />
+    <meta name="twitter:image" content="/twitter-card.jpg" />
+    <meta name="twitter:creator" content="@abhirajyadav" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://abhirajyadav.dev" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="msapplication-TileColor" content="#2563eb" />
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Abhiraj Yadav",
+      "jobTitle": "Full Stack Developer",
+      "description": "Passionate Full Stack Developer specializing in React.js, Node.js, and modern web technologies.",
+      "url": "https://abhirajyadav.dev",
+      "email": "abhirajyadav303@gmail.com",
+      "telephone": "+91-9113402282",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Noida",
+        "addressRegion": "Uttar Pradesh",
+        "addressCountry": "India"
+      },
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Vellore Institute of Technology",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bhopal",
+            "addressRegion": "Madhya Pradesh",
+            "addressCountry": "India"
+          }
+        }
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Full Stack Development",
+        "Web Development",
+        "Frontend Development",
+        "Backend Development"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/abhiraj-yadav-86a232215/",
+        "https://github.com/abhiraj100"
+      ]
+    }
+    </script>
+    
+    <!-- Performance optimizations -->
+    <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin />
+    
+    <!-- Security headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
+    <!-- Loading styles -->
+    <style>
+      /* Loading screen styles */
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease;
+      }
+      
+      .loading-content {
+        text-align: center;
+        color: white;
+      }
+      
+      .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        border-top-color: white;
+        animation: spin 1s ease-in-out infinite;
+        margin: 0 auto 1rem;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      
+      .loading-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0;
+        opacity: 0.9;
+      }
+      
+      .hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Loading screen -->
+    <div id="loading-screen">
+      <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Loading Portfolio...</p>
+      </div>
+    </div>
+    
+    <!-- Main app container -->
+    <div id="root"></div>
+    
+    <!-- Main content landmark -->
+    <main id="main-content" style="display: none;"></main>
+    
+    <!-- Scripts -->
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Loading script -->
+    <script>
+      // Hide loading screen when page is loaded
+      window.addEventListener('load', function() {
+        const loadingScreen = document.getElementById('loading-screen');
+        const mainContent = document.getElementById('main-content');
+        
+        setTimeout(() => {
+          loadingScreen.classList.add('hidden');
+          mainContent.style.display = 'block';
+          
+          // Remove loading screen from DOM after transition
+          setTimeout(() => {
+            if (loadingScreen.parentNode) {
+              loadingScreen.parentNode.removeChild(loadingScreen);
+            }
+          }, 500);
+        }, 1000);
+      });
+      
+      // Fallback: hide loading screen after 5 seconds
+      setTimeout(() => {
+        const loadingScreen = document.getElementById('loading-screen');
+        if (loadingScreen && !loadingScreen.classList.contains('hidden')) {
+          loadingScreen.classList.add('hidden');
+        }
+      }, 5000);
+    </script>
+    
+    <!-- Google Analytics (replace with your tracking ID) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_TRACKING_ID');
+    </script> -->
+    
+    <!-- Schema.org structured data for better SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Abhiraj Yadav Portfolio",
+      "description": "Professional portfolio showcasing full stack development projects and skills",
+      "url": "https://abhirajyadav.dev",
+      "author": {
+        "@type": "Person",
+        "name": "Abhiraj Yadav"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://abhirajyadav.dev/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+  </body>
+</html>
+
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html> -->
