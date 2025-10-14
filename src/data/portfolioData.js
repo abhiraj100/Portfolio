@@ -390,7 +390,7 @@ export const stats = [
   {
     id: 2,
     label: "Years of Experience",
-    value: "1+",
+    value: "0.5",
     icon: "FiCalendar",
   },
   {
