@@ -19,7 +19,7 @@ export const education = [
     location: "Bhopal, Madhya Pradesh",
     degree: "Master of Computer Applications",
     duration: "Aug 2023 – May 2025",
-    cgpa: "8.5",
+    cgpa: "8.6",
     description:
       "Specialized in Advanced Web Technologies, Database Management Systems, and Software Engineering. Active member of coding clubs and technical societies.",
   },
@@ -32,6 +32,26 @@ export const education = [
     cgpa: "7.6",
     description:
       "Focused on Programming Fundamentals, Data Structures, Algorithms, and Web Development. Graduated with distinction and participated in various technical competitions.",
+  },
+    {
+    id: 3,
+    institution: "Gobind Singh Public School",
+    location: "Daltonganj, Jharkhand",
+    degree: "Higher Secondary Education (Class XII)",
+    duration: "Jun 2017 – May 2019",
+    cgpa: "7.23",
+    description:
+      "Specialized in the Science stream with a strong focus on Computer Science. Gained foundational knowledge in programming, logic building, and problem-solving. Actively participated in coding events and developed early interest in web technologies and software development.",
+  },
+    {
+    id: 4,
+    institution: "Elite Public School",
+    location: "Daltonganj, Jharkhand",
+    degree: "Secondary Education (Class X)",
+    duration: "April 2016 – May 2017",
+    cgpa: "10",
+    description:
+      "Completed Secondary Education with a strong academic record, developing a solid foundation in mathematics, science, and computer fundamentals",
   },
 ];
 
