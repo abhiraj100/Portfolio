@@ -1,7 +1,8 @@
 export const personalInfo = {
   name: "Abhiraj Yadav",
   title: "Full Stack Developer",
-  subtitle: "Frontend Developer | React.js Specialist | MERN Stack Developer | DevOps",
+  subtitle:
+    "Frontend Developer | React.js Specialist | MERN Stack Developer | DevOps",
   location: "Noida, Uttar Pradesh, India",
   email: "abhirajyadav303@gmail.com",
   phone: "+91 9113402282",
@@ -33,7 +34,7 @@ export const education = [
     description:
       "Focused on Programming Fundamentals, Data Structures, Algorithms, and Web Development. Graduated with distinction and participated in various technical competitions.",
   },
-    {
+  {
     id: 3,
     institution: "Gobind Singh Public School",
     location: "Daltonganj, Jharkhand",
@@ -43,7 +44,7 @@ export const education = [
     description:
       "Specialized in the Science stream with a strong focus on Computer Science. Gained foundational knowledge in programming, logic building, and problem-solving. Actively participated in coding events and developed early interest in web technologies and software development.",
   },
-    {
+  {
     id: 4,
     institution: "Elite Public School",
     location: "Daltonganj, Jharkhand",
@@ -92,6 +93,32 @@ export const experience = [
   },
   {
     id: 2,
+    company: "Affy Cloud Solution",
+    position: "Software Developer Intern",
+    location: "Bhopal, Madhya Pradesh (Remote)",
+    duration: "Nov 2024 – Jan 2025",
+    type: "Internship",
+    description:
+      "Assisted in developing and optimizing an EdTech platform focused on delivering interactive and scalable learning experiences.",
+    achievements: [
+      "Developed and integrated responsive front-end components using React.js and Material-UI, improving user engagement by 30%",
+      "Enhanced REST API integration and data handling using Axios, reducing data load times by 35%",
+      "Implemented real-time communication features with WebSockets, increasing platform interactivity and collaboration",
+      "Collaborated with cross-functional teams to refine product design and resolve key performance bottlenecks",
+      "Conducted code reviews and implemented best practices with Git and Jest, improving maintainability and reducing bugs by 25%",
+    ],
+    technologies: [
+      "React.js",
+      "Redux",
+      "Axios",
+      "Material-UI",
+      "WebSocket",
+      "Jest",
+      "Git",
+    ],
+  },
+  {
+    id: 3,
     company: "Codes For Tomorrow",
     position: "React.js Developer Intern",
     location: "Indore, Madhya Pradesh",
@@ -108,7 +135,7 @@ export const experience = [
     technologies: ["React.js", "Redux", "Axios", "Material-UI", "Jest", "Git"],
   },
   {
-    id: 3,
+    id: 4,
     company: "Physics Wallah Classes",
     position: "Full Stack Developer Intern",
     location: "Remote",
@@ -131,6 +158,33 @@ export const experience = [
       "AWS",
     ],
   },
+  {
+    id: 5,
+    company: "Briztech Infosystems Pvt. Ltd.",
+    position: "Web Designing (PHP) Intern",
+    location: "Remote",
+    duration: "Jan 2023 – Jan 2023",
+    type: "Internship",
+    description:
+      "Contributed to the development and design of responsive web pages using PHP and modern front-end technologies, improving user interface consistency and site performance.",
+    achievements: [
+      "Designed and developed interactive web pages using HTML, CSS, JavaScript, and PHP, ensuring mobile responsiveness and cross-browser compatibility",
+      "Optimized website layouts and visual elements to enhance user experience and reduce bounce rates by 25%",
+      "Integrated dynamic content using PHP and MySQL, enabling smoother data flow and content updates",
+      "Collaborated with senior developers to debug and maintain web modules, improving overall site stability",
+      "Implemented SEO-friendly design practices, improving site visibility and load speed by 20%",
+    ],
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+      "Bootstrap",
+      "VS Code",
+      "Git",
+    ],
+  }
 ];
 
 export const projects = [
