@@ -93,6 +93,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary resume-btn"
+            download="Abhiraj_Yadav_Resume.pdf" 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -139,6 +140,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary mobile-resume-btn"
+              download="Abhiraj_Yadav_Resume.pdf" 
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: isOpen ? 1 : 0, x: isOpen ? 0 : -20 }}
               transition={{ delay: navItems.length * 0.1 }}

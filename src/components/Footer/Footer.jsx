@@ -136,6 +136,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
+                  download="Abhiraj_Yadav_Resume.pdf"
                 >
                   View Resume
                 </a>

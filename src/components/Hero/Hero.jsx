@@ -91,6 +91,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
+                download="Abhiraj_Yadav_Resume.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
