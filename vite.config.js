@@ -8,7 +8,7 @@ export default defineConfig({
   // Include additional static assets
   assetsInclude: ['**/*.pdf', '**/*.jpg', '**/*.png', '**/*.svg', '**/*.gif', '**/*.webp'],
 
-  base: '/portfolio',
+  base: '/',
 
   // Development server configuration
   server: {
