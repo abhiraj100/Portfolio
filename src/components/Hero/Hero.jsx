@@ -1,15 +1,26 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { FiDownload, FiMail, FiMapPin, FiGithub, FiLinkedin } from 'react-icons/fi';
-import { personalInfo, socialLinks } from '../../data/portfolioData';
-import './Hero.css';
+import React from "react";
+import { motion } from "framer-motion";
+import {
+  FiDownload,
+  FiMail,
+  FiMapPin,
+  FiGithub,
+  FiLinkedin,
+} from "react-icons/fi";
+import { personalInfo, socialLinks } from "../../data/portfolioData";
+import "./Hero.css";
 
 const Hero = () => {
   const handleContactClick = () => {
-    const contactSection = document.querySelector('#contact');
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
-    }
+    // const contactSection = document.querySelector('#contact');
+    // if (contactSection) {
+    //   contactSection.scrollIntoView({ behavior: 'smooth' });
+    // }
+
+    const subject = "Let's Work Together";
+    const body =
+      "Hi Abhiraj,%0D%0A%0D%0AI would like to discuss a project with you.";
+    window.location.href = `mailto:${personalInfo.email}?subject=${subject}&body=${body}`;
   };
 
   const containerVariants = {
@@ -18,9 +29,9 @@ const Hero = () => {
       opacity: 1,
       transition: {
         delayChildren: 0.3,
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const itemVariants = {
@@ -30,9 +41,9 @@ const Hero = () => {
       opacity: 1,
       transition: {
         duration: 0.5,
-        ease: "easeOut"
-      }
-    }
+        ease: "easeOut",
+      },
+    },
   };
 
   return (
@@ -41,7 +52,7 @@ const Hero = () => {
         <div className="hero-gradient"></div>
         <div className="hero-pattern"></div>
       </div>
-      
+
       <div className="container">
         <motion.div
           className="hero-content"
@@ -53,28 +64,28 @@ const Hero = () => {
             <motion.div className="hero-greeting" variants={itemVariants}>
               <span className="greeting-text">Hello, I'm</span>
             </motion.div>
-            
+
             <motion.h1 className="hero-name" variants={itemVariants}>
               <span className="name-highlight">{personalInfo.name}</span>
             </motion.h1>
-            
+
             <motion.h2 className="hero-title" variants={itemVariants}>
               {personalInfo.title}
             </motion.h2>
-            
+
             <motion.p className="hero-subtitle" variants={itemVariants}>
               {personalInfo.subtitle}
             </motion.p>
-            
+
             <motion.div className="hero-location" variants={itemVariants}>
               <FiMapPin />
               <span>{personalInfo.location}</span>
             </motion.div>
-            
+
             <motion.p className="hero-bio" variants={itemVariants}>
               {personalInfo.bio}
             </motion.p>
-            
+
             <motion.div className="hero-actions" variants={itemVariants}>
               <motion.button
                 className="btn btn-primary"
@@ -85,7 +96,7 @@ const Hero = () => {
                 <FiMail />
                 Get In Touch
               </motion.button>
-              
+
               <motion.a
                 href={personalInfo.resume}
                 target="_blank"
@@ -99,21 +110,58 @@ const Hero = () => {
                 Download Resume
               </motion.a>
             </motion.div>
-            
-            <motion.div className="hero-social" variants={itemVariants}>
+
+            {/* <motion.div className="hero-social" variants={itemVariants}>
               {socialLinks.slice(0, 4).map((social, index) => {
                 const IconComponent = social.name === 'LinkedIn' ? FiLinkedin :
                                    social.name === 'GitHub' ? FiGithub :
                                    social.name === 'Email' ? FiMail : FiGithub;
-                                   
+
+                     const href = social.name === 'Email' 
+                  ? `mailto:${personalInfo.email}?subject=Hello from Portfolio`
+                  : social.url; */}
+
+            <motion.div className="hero-social" variants={itemVariants}>
+              {socialLinks.slice(0, 4).map((social, index) => {
+                const IconComponent =
+                  social.name === "LinkedIn"
+                    ? FiLinkedin
+                    : social.name === "GitHub"
+                    ? FiGithub
+                    : social.name === "Email"
+                    ? FiMail
+                    : FiGithub;
+
+                // ✅ If it's Email, use mailto: link
+                const href =
+                  social.name === "Email"
+                    ? `mailto:${personalInfo.email}?subject=Hello from Portfolio`
+                    : social.url;
+
                 return (
+                  // <motion.a
+                  //   key={social.name}
+                  //   href={social.url}
+                  //   target="_blank"
+                  //   rel="noopener noreferrer"
+                  //   className="social-link"
+                  //   style={{ '--social-color': social.color }}
+                  //   whileHover={{ scale: 1.2, rotate: 5 }}
+                  //   whileTap={{ scale: 0.9 }}
+                  //   initial={{ opacity: 0, y: 20 }}
+                  //   animate={{ opacity: 1, y: 0 }}
+                  //   transition={{ delay: 0.8 + index * 0.1 }}
+                  // >
+                  //   <IconComponent size={20} />
+                  // </motion.a>
+
                   <motion.a
                     key={social.name}
-                    href={social.url}
-                    target="_blank"
+                    href={href}
+                    target={social.name === "Email" ? "_self" : "_blank"}
                     rel="noopener noreferrer"
                     className="social-link"
-                    style={{ '--social-color': social.color }}
+                    style={{ "--social-color": social.color }}
                     whileHover={{ scale: 1.2, rotate: 5 }}
                     whileTap={{ scale: 0.9 }}
                     initial={{ opacity: 0, y: 20 }}
@@ -126,7 +174,7 @@ const Hero = () => {
               })}
             </motion.div>
           </div>
-          
+
           <motion.div className="hero-image" variants={itemVariants}>
             <div className="image-container">
               <motion.div
@@ -142,7 +190,7 @@ const Hero = () => {
                 />
                 <div className="image-overlay"></div>
               </motion.div>
-              
+
               {/* Floating elements */}
               <motion.div
                 className="floating-element element-1"
@@ -153,12 +201,12 @@ const Hero = () => {
                 transition={{
                   duration: 3,
                   repeat: Infinity,
-                  ease: "easeInOut"
+                  ease: "easeInOut",
                 }}
               >
                 <div className="tech-badge">React</div>
               </motion.div>
-              
+
               <motion.div
                 className="floating-element element-2"
                 animate={{
@@ -169,12 +217,12 @@ const Hero = () => {
                   duration: 4,
                   repeat: Infinity,
                   ease: "easeInOut",
-                  delay: 1
+                  delay: 1,
                 }}
               >
                 <div className="tech-badge">Node.js</div>
               </motion.div>
-              
+
               <motion.div
                 className="floating-element element-3"
                 animate={{
@@ -185,7 +233,7 @@ const Hero = () => {
                   duration: 3.5,
                   repeat: Infinity,
                   ease: "easeInOut",
-                  delay: 0.5
+                  delay: 0.5,
                 }}
               >
                 <div className="tech-badge">MongoDB</div>
@@ -193,7 +241,7 @@ const Hero = () => {
             </div>
           </motion.div>
         </motion.div>
-        
+
         {/* Scroll indicator */}
         <motion.div
           className="scroll-indicator"
@@ -207,7 +255,7 @@ const Hero = () => {
             transition={{
               duration: 2,
               repeat: Infinity,
-              ease: "easeInOut"
+              ease: "easeInOut",
             }}
           >
             ↓

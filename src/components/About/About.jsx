@@ -71,33 +71,32 @@ const About = () => {
                   exceptional user experiences.
                 </p>
                 <p>
-                  I have completed my Master’s in Computer Applications (MCA) from VIT Bhopal University, where I honed my technical expertise and developed a strong foundation in MERN Stack (MongoDB, Express.js, React.js, Node.js) development. My approach blends clean code, responsive design, and efficient architecture to create scalable, maintainable digital solutions.
-                  With both academic excellence and hands-on industry experience, I bring a balanced perspective to problem-solving — from front-end aesthetics to robust back-end functionality. I’m passionate about continuous learning, exploring new technologies, and contributing to projects that make an impact.
+                  I have completed my Master’s in Computer Applications (MCA)
+                  from VIT Bhopal University, where I honed my technical
+                  expertise and developed a strong foundation in MERN Stack
+                  (MongoDB, Express.js, React.js, Node.js) development. My
+                  approach blends clean code, responsive design, and efficient
+                  architecture to create scalable, maintainable digital
+                  solutions. With both academic excellence and hands-on industry
+                  experience, I bring a balanced perspective to problem-solving
+                  — from front-end aesthetics to robust back-end functionality.
+                  I’m passionate about continuous learning, exploring new
+                  technologies, and contributing to projects that make an
+                  impact.
                 </p>
 
-            <p> 
-              <b>💡 Key Focus Areas: </b>
-            </p>
                 <p>
-                  <ul style={{ listStyleType: "disc", marginLeft: "20px" }}>
-                    <li>
-                  Full Stack Web Development (MERN)
-                    </li>
-                    <li>
-                  RESTful API Design & Integration
-                    </li>
-                    <li>
-                   Responsive UI/UX Development
-                    </li>
-                    <li>
-                  Performance Optimization & Clean Architecture
-                    </li>
-                    <li>
-                  Version Control (Git, GitHub)
-                    </li>
-                    
-                  </ul>
+                  <b>💡 Key Focus Areas: </b>
                 </p>
+                <div>
+                  <ul style={{ listStyleType: "disc", marginLeft: "20px" }}>
+                    <li>Full Stack Web Development (MERN)</li>
+                    <li>RESTful API Design & Integration</li>
+                    <li>Responsive UI/UX Development</li>
+                    <li>Performance Optimization & Clean Architecture</li>
+                    <li>Version Control (Git, GitHub)</li>
+                  </ul>
+                </div>
                 <p>
                   My journey in web development started with a curiosity about
                   how websites work, and it has evolved into a career dedicated
