@@ -1,4 +1,10 @@
-import resumePDF from "../assets/Abhiraj_Resume.pdf"
+import resumePDF from "../assets/Abhiraj_Resume.pdf";
+import HealthHive from "../assets/HealthHive.png";
+import QuickCart from "../assets/QuickCart.png";
+import SnapStock from "../assets/SnapStock.png";
+import TaskFlow from "../assets/TaskFlow.png";
+import CountryInfoApp from "../assets/CountryInfoApp.png";
+import EventWithYadavs from "../assets/EventWithYadavs.png";
 
 export const personalInfo = {
   name: "Abhiraj Yadav",
@@ -186,7 +192,7 @@ export const experience = [
       "VS Code",
       "Git",
     ],
-  }
+  },
 ];
 
 export const projects = [
@@ -198,7 +204,7 @@ export const projects = [
     longDescription:
       "QuickCart is a full-featured e-commerce application built with the MERN stack. It provides a seamless shopping experience with features like product search and filtering, user reviews and ratings, secure payment processing, order tracking, and inventory management. The application is optimized for performance and scalability.",
     duration: "Jun 2025 - Jul 2025",
-    image: "/projects/quickcart.jpg",
+    image: QuickCart,
     technologies: [
       "Next.js",
       "Node.js",
@@ -223,7 +229,8 @@ export const projects = [
       "Implemented MongoDB for seamless database operations, reducing data retrieval time",
       "Improved backend processes, leading to a 25% boost in page load speeds across all devices",
     ],
-    github: "https://github.com/abhiraj100/QuickCart-E-Commerce-App-using-Next.js",
+    github:
+      "https://github.com/abhiraj100/QuickCart-E-Commerce-App-using-Next.js",
     demo: "https://quick-cart-e-commerce-app-using-nex.vercel.app/",
     status: "Completed",
   },
@@ -235,7 +242,7 @@ export const projects = [
     longDescription:
       "HealthHive is a full-stack healthcare platform that revolutionizes the way patients connect with healthcare providers. The platform offers seamless appointment booking, secure patient data management, telemedicine capabilities, and integrated communication tools between patients and doctors.",
     duration: "Feb 2025 - May 2025",
-    image: "/projects/healthhive.jpg",
+    image: HealthHive,
     technologies: [
       "React.js",
       "Node.js",
@@ -260,7 +267,8 @@ export const projects = [
       "Prototyped and iterated key features in weekly sprints, reducing delivery cycle time by 20%",
       "Spearheaded collaboration with designers to refine UI components, raising stakeholder approval scores by 30%",
     ],
-    github: "https://github.com/abhiraj100/HealthHive-Connecting-Care-Empowering-Health",
+    github:
+      "https://github.com/abhiraj100/HealthHive-Connecting-Care-Empowering-Health",
     demo: "https://health-hive-connecting-care-empowering-health-client.vercel.app/",
     status: "Completed",
   },
@@ -272,7 +280,7 @@ export const projects = [
     longDescription:
       "Snap Stock is a comprehensive stock photography platform that provides photographers with a platform to showcase their work and users with access to high-quality images. The platform features advanced search capabilities, trending collections, user profiles, and licensing management.",
     duration: "Aug 2024",
-    image: "/projects/snapstock.jpg",
+    image: SnapStock,
     technologies: [
       "React.js",
       "TailwindCSS",
@@ -295,8 +303,8 @@ export const projects = [
       "Integrated a high-performance search bar and trending collections feature, improving engagement",
       "Enhanced content display, raising click-through rates by 25% on trending stock items",
     ],
-    github: "https://github.com/abhiraj100/snapstock",
-    demo: "https://snapstock-demo.vercel.app",
+    github: "https://github.com/abhiraj100/Snap-Stock",
+    demo: "https://snap-stock-ten.vercel.app/",
     status: "Completed",
   },
   {
@@ -307,7 +315,7 @@ export const projects = [
     longDescription:
       "TaskFlow is a comprehensive project management solution designed for modern teams. It combines intuitive design with powerful features like kanban boards, sprint planning, time tracking, and team collaboration tools to streamline project workflows.",
     duration: "Dec 2024 - Jan 2025",
-    image: "/projects/taskflow.jpg",
+    image: TaskFlow,
     technologies: [
       "React.js",
       "Node.js",
@@ -331,10 +339,77 @@ export const projects = [
       "Implemented real-time collaboration features using WebSocket technology",
       "Achieved 99.9% uptime with optimized database queries and caching strategies",
     ],
-    github: "https://github.com/abhiraj100/taskflow",
+    github: "https://github.com/abhiraj100/Task-Management-Focus-Flow",
     demo: "https://taskflow-demo.vercel.app",
     status: "In Development",
   },
+  {
+  id: 5,
+  title: "Country Info App",
+  description:
+    "An interactive web application that provides detailed information about countries worldwide, including population, region, capital, and flags. Users can easily search and explore countries with an intuitive interface.",
+  longDescription:
+    "Country Info App is a responsive web application built using React and REST APIs. It allows users to search for any country and view comprehensive information such as population, region, capital, subregion, native name, and flag. The app also supports dark and light mode themes for a better user experience. Data is fetched dynamically from the REST Countries API to ensure accuracy and up-to-date information.",
+  duration: "Apr 2025 - May 2025",
+  image: CountryInfoApp,
+  technologies: [
+    "React.js",
+    "REST Countries API",
+    "JavaScript",
+    "CSS3",
+    "HTML5",
+    "Vercel",
+  ],
+  features: [
+    "Search functionality to find countries by name",
+    "Detailed information for each country",
+    "Dark and light theme toggle",
+    "Responsive design for all devices",
+    "Dynamic data fetching using REST API",
+    "Smooth UI and animations",
+  ],
+  achievements: [
+    "Built a clean and responsive UI for global users",
+    "Optimized API integration for fast and efficient data retrieval",
+    "Enhanced accessibility with light/dark theme support",
+  ],
+  github: "https://github.com/abhiraj100/Country-Info-App",
+  demo: "https://country-info-app-mu.vercel.app/",
+  status: "Completed",
+  },
+  {
+  id: 6,
+  title: "Event With Yadav's",
+  description:
+    "A modern event planning web application designed to help users create, organize, and manage events seamlessly. Includes features for guest management, event scheduling, and responsive design for smooth user experience.",
+  longDescription:
+    "Event With Yadav's is a full-stack web application that simplifies event management. Built using React and modern web technologies, it allows users to create and customize events, manage guest lists, and track event details in real-time. The platform focuses on usability, offering an attractive interface with responsive design for desktop and mobile users. It ensures smooth navigation and dynamic interactions throughout the event planning process.",
+  duration: "Aug 2025 - Sep 2025",
+  image: EventWithYadavs,
+  technologies: [
+    "React.js",
+    "JavaScript",
+    "CSS3",
+    "HTML5",
+    "Vercel",
+  ],
+  features: [
+    "Create and manage events easily",
+    "Guest list and event details management",
+    "Dynamic event scheduling system",
+    "Responsive and user-friendly design",
+    "Smooth animations and modern UI components",
+  ],
+  achievements: [
+    "Developed an intuitive event management interface improving user engagement",
+    "Enhanced performance and accessibility across devices",
+    "Successfully deployed on Vercel ensuring high availability and speed",
+  ],
+  github: "https://github.com/abhiraj100/EVENT-PLANNING",
+  demo: "https://event-planning-eight.vercel.app/",
+  status: "Completed",
+},
+
 ];
 
 export const skills = {
