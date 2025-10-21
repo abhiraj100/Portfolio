@@ -223,8 +223,8 @@ export const projects = [
       "Implemented MongoDB for seamless database operations, reducing data retrieval time",
       "Improved backend processes, leading to a 25% boost in page load speeds across all devices",
     ],
-    github: "https://github.com/abhiraj100/quickcart",
-    demo: "https://quickcart-demo.vercel.app",
+    github: "https://github.com/abhiraj100/QuickCart-E-Commerce-App-using-Next.js",
+    demo: "https://quick-cart-e-commerce-app-using-nex.vercel.app/",
     status: "Completed",
   },
   {
