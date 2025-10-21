@@ -260,8 +260,8 @@ export const projects = [
       "Prototyped and iterated key features in weekly sprints, reducing delivery cycle time by 20%",
       "Spearheaded collaboration with designers to refine UI components, raising stakeholder approval scores by 30%",
     ],
-    github: "https://github.com/abhiraj100/healthhive",
-    demo: "https://healthhive-demo.vercel.app",
+    github: "https://github.com/abhiraj100/HealthHive-Connecting-Care-Empowering-Health",
+    demo: "https://health-hive-connecting-care-empowering-health-client.vercel.app/",
     status: "Completed",
   },
   {
