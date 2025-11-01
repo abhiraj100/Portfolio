@@ -344,72 +344,65 @@ export const projects = [
     status: "In Development",
   },
   {
-  id: 5,
-  title: "Country Info App",
-  description:
-    "An interactive web application that provides detailed information about countries worldwide, including population, region, capital, and flags. Users can easily search and explore countries with an intuitive interface.",
-  longDescription:
-    "Country Info App is a responsive web application built using React and REST APIs. It allows users to search for any country and view comprehensive information such as population, region, capital, subregion, native name, and flag. The app also supports dark and light mode themes for a better user experience. Data is fetched dynamically from the REST Countries API to ensure accuracy and up-to-date information.",
-  duration: "Apr 2025 - May 2025",
-  image: CountryInfoApp,
-  technologies: [
-    "React.js",
-    "REST Countries API",
-    "JavaScript",
-    "CSS3",
-    "HTML5",
-    "Vercel",
-  ],
-  features: [
-    "Search functionality to find countries by name",
-    "Detailed information for each country",
-    "Dark and light theme toggle",
-    "Responsive design for all devices",
-    "Dynamic data fetching using REST API",
-    "Smooth UI and animations",
-  ],
-  achievements: [
-    "Built a clean and responsive UI for global users",
-    "Optimized API integration for fast and efficient data retrieval",
-    "Enhanced accessibility with light/dark theme support",
-  ],
-  github: "https://github.com/abhiraj100/Country-Info-App",
-  demo: "https://country-info-app-mu.vercel.app/",
-  status: "Completed",
+    id: 5,
+    title: "Country Info App",
+    description:
+      "An interactive web application that provides detailed information about countries worldwide, including population, region, capital, and flags. Users can easily search and explore countries with an intuitive interface.",
+    longDescription:
+      "Country Info App is a responsive web application built using React and REST APIs. It allows users to search for any country and view comprehensive information such as population, region, capital, subregion, native name, and flag. The app also supports dark and light mode themes for a better user experience. Data is fetched dynamically from the REST Countries API to ensure accuracy and up-to-date information.",
+    duration: "Apr 2025 - May 2025",
+    image: CountryInfoApp,
+    technologies: [
+      "React.js",
+      "REST Countries API",
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "Vercel",
+    ],
+    features: [
+      "Search functionality to find countries by name",
+      "Detailed information for each country",
+      "Dark and light theme toggle",
+      "Responsive design for all devices",
+      "Dynamic data fetching using REST API",
+      "Smooth UI and animations",
+    ],
+    achievements: [
+      "Built a clean and responsive UI for global users",
+      "Optimized API integration for fast and efficient data retrieval",
+      "Enhanced accessibility with light/dark theme support",
+    ],
+    github: "https://github.com/abhiraj100/Country-Info-App",
+    demo: "https://country-info-app-mu.vercel.app/",
+    status: "Completed",
   },
   {
-  id: 6,
-  title: "Event With Yadav's",
-  description:
-    "A modern event planning web application designed to help users create, organize, and manage events seamlessly. Includes features for guest management, event scheduling, and responsive design for smooth user experience.",
-  longDescription:
-    "Event With Yadav's is a full-stack web application that simplifies event management. Built using React and modern web technologies, it allows users to create and customize events, manage guest lists, and track event details in real-time. The platform focuses on usability, offering an attractive interface with responsive design for desktop and mobile users. It ensures smooth navigation and dynamic interactions throughout the event planning process.",
-  duration: "Aug 2025 - Sep 2025",
-  image: EventWithYadavs,
-  technologies: [
-    "React.js",
-    "JavaScript",
-    "CSS3",
-    "HTML5",
-    "Vercel",
-  ],
-  features: [
-    "Create and manage events easily",
-    "Guest list and event details management",
-    "Dynamic event scheduling system",
-    "Responsive and user-friendly design",
-    "Smooth animations and modern UI components",
-  ],
-  achievements: [
-    "Developed an intuitive event management interface improving user engagement",
-    "Enhanced performance and accessibility across devices",
-    "Successfully deployed on Vercel ensuring high availability and speed",
-  ],
-  github: "https://github.com/abhiraj100/EVENT-PLANNING",
-  demo: "https://event-planning-eight.vercel.app/",
-  status: "Completed",
-},
-
+    id: 6,
+    title: "Event With Yadav's",
+    description:
+      "A modern event planning web application designed to help users create, organize, and manage events seamlessly. Includes features for guest management, event scheduling, and responsive design for smooth user experience.",
+    longDescription:
+      "Event With Yadav's is a full-stack web application that simplifies event management. Built using React and modern web technologies, it allows users to create and customize events, manage guest lists, and track event details in real-time. The platform focuses on usability, offering an attractive interface with responsive design for desktop and mobile users. It ensures smooth navigation and dynamic interactions throughout the event planning process.",
+    duration: "Aug 2025 - Sep 2025",
+    image: EventWithYadavs,
+    technologies: ["React.js", "JavaScript", "CSS3", "HTML5", "Vercel"],
+    features: [
+      "Create and manage events easily",
+      "Guest list and event details management",
+      "Dynamic event scheduling system",
+      "Responsive and user-friendly design",
+      "Smooth animations and modern UI components",
+    ],
+    achievements: [
+      "Developed an intuitive event management interface improving user engagement",
+      "Enhanced performance and accessibility across devices",
+      "Successfully deployed on Vercel ensuring high availability and speed",
+    ],
+    github: "https://github.com/abhiraj100/EVENT-PLANNING",
+    demo: "https://event-planning-eight.vercel.app/",
+    status: "Completed",
+  },
 ];
 
 export const skills = {
@@ -445,6 +438,36 @@ export const skills = {
   ],
 };
 
+// export const certifications = [
+//   {
+//     id: 1,
+//     name: "AWS Certified Cloud Practitioner",
+//     issuer: "Amazon Web Services",
+//     date: "2024",
+//     credentialId: "AWS-CCP-2024",
+//     image: aws,
+//     skills: ["Cloud Computing", "AWS Services", "Security", "Pricing"],
+//   },
+//   {
+//     id: 2,
+//     name: "React Developer Certification",
+//     issuer: "Meta",
+//     date: "2024",
+//     credentialId: "META-REACT-2024",
+//     image: "/certifications/meta-react.png",
+//     skills: ["React.js", "JSX", "Hooks", "State Management"],
+//   },
+//   {
+//     id: 3,
+//     name: "Full Stack Web Development",
+//     issuer: "freeCodeCamp",
+//     date: "2023",
+//     credentialId: "FCC-FSWD-2023",
+//     image: "/certifications/freecodecamp.png",
+//     skills: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+//   },
+// ];
+
 export const certifications = [
   {
     id: 1,
@@ -452,7 +475,7 @@ export const certifications = [
     issuer: "Amazon Web Services",
     date: "2024",
     credentialId: "AWS-CCP-2024",
-    image: "/certifications/aws-ccp.png",
+    image: "../../public/certifications/aws.png",
     skills: ["Cloud Computing", "AWS Services", "Security", "Pricing"],
   },
   {
@@ -473,7 +496,44 @@ export const certifications = [
     image: "/certifications/freecodecamp.png",
     skills: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
   },
+  {
+    id: 4,
+    name: "SQL (Basic)",
+    issuer: "HackerRank",
+    date: "Dec 2024",
+    credentialId: "A173646C3743",
+    image: "../../public/certifications/sqlB.png",
+    skills: ["SQL", "Database Queries", "Data Retrieval", "Joins"],
+  },
+  {
+    id: 5,
+    name: "JavaScript (Basic)",
+    issuer: "HackerRank",
+    date: "Dec 2024",
+    credentialId: "47D1DD0D6C57",
+    image: "../../public/certifications/javascriptB.png",
+    skills: ["JavaScript", "ES6+", "DOM Manipulation", "Functions"],
+  },
+  {
+    id: 6,
+    name: "Java (Basic)",
+    issuer: "HackerRank",
+    date: "Dec 2024",
+    credentialId: "66C52D3B14303",
+    image: "../../public/certifications/javaB.png",
+    skills: ["Java", "OOP", "Control Structures", "Data Types"],
+  },
+    {
+    id: 7,
+    name: "Intro to SQL",
+    issuer: "Kaggle",
+    date: "Nov 2023",
+    credentialId: "",
+    image: "../../public/certifications/SQLK.png",
+    skills: ["SQL", "Database Queries", "Data Retrieval", "Joins"],
+  },
 ];
+
 
 export const testimonials = [
   {
