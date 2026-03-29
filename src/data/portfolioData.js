@@ -68,7 +68,7 @@ export const experience = [
   {
     id: 1,
     company: "Stocai",
-    position: "Frontend Developer",
+    position: "Full Stack Developer",
     location: "Remote, Pune",
     duration: "Mar 2025 – Present",
     type: "Full-time",
@@ -99,8 +99,34 @@ export const experience = [
       "JWT Authentication",
     ],
   },
-  {
+    {
     id: 2,
+    company: "Techugo",
+    position: "Software Developer Intern",
+    location: "Noida, Uttar Pradesh (Remote)",
+    duration: "Feb 2025 – Mar 2025",
+    type: "Internship",
+    description:
+      "Contributed to the development and optimization of a scalable EdTech platform, focusing on delivering engaging and high-performance learning experiences.",
+    achievements: [
+      "Built and optimized responsive UI components using React.js and Material-UI, increasing user engagement by 30%",
+      "Improved API integration and data handling with Axios, reducing data load time by 35%",
+      "Implemented real-time features using WebSockets to enhance collaboration and interactivity",
+      "Worked closely with cross-functional teams to enhance product design and resolve performance bottlenecks",
+      "Performed code reviews and enforced best practices using Git and Jest, reducing bugs by 25% and improving code maintainability",
+    ],
+    technologies: [
+      "React.js",
+      "Redux",
+      "Axios",
+      "Material-UI",
+      "WebSockets",
+      "Jest",
+      "Git",
+    ],
+  },
+  {
+    id: 3,
     company: "Affy Cloud Solution",
     position: "Software Developer Intern",
     location: "Bhopal, Madhya Pradesh (Remote)",
@@ -126,7 +152,7 @@ export const experience = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     company: "Codes For Tomorrow",
     position: "React.js Developer Intern",
     location: "Indore, Madhya Pradesh",
@@ -143,7 +169,7 @@ export const experience = [
     technologies: ["React.js", "Redux", "Axios", "Material-UI", "Jest", "Git"],
   },
   {
-    id: 4,
+    id: 5,
     company: "Physics Wallah Classes",
     position: "Full Stack Developer Intern",
     location: "Remote",
@@ -167,7 +193,7 @@ export const experience = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     company: "Briztech Infosystems Pvt. Ltd.",
     position: "Web Designing (PHP) Intern",
     location: "Remote",
@@ -611,7 +637,7 @@ export const stats = [
   {
     id: 2,
     label: "Years of Experience",
-    value: "0.5",
+    value: "1+",
     icon: "FiCalendar",
   },
   {
